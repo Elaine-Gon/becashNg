@@ -1,0 +1,49 @@
+
+@import '/src/styles.scss';
+
+main {
+  width: 100%;
+  padding: 0 10.2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-family: $typography;
+
+  div {
+    width: 32.2rem;
+    height: 13.6rem;
+    padding: 2.5rem 3.2rem;
+    margin-top: -9rem;
+    border-radius: .5rem;
+    background: $shape;
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      p {
+        font-size: 1.8rem;
+      }
+
+      img {
+        width: 3.6rem;
+      }
+    }
+
+    strong {
+      font-size: 3.6rem;
+      font-weight: 400;
+    }
+  }
+
+  .card-total {
+    background: $color-green;
+
+    p, strong {
+      color: $shape;
+    }
+  }
+}

@@ -5,13 +5,13 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () =>
-      import('./views/views.module').then(
-        (m) => m.ViewsModule)
+      import('./dashboard/dashboard.module').then(
+        (m) => m.DashboardModule)
   }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class ViewsRoutingModule { }

@@ -1,1 +1,64 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+$background:  #F0F2F5;
+$blue-ligth: #3FB7FB;
+$blue-dark: #00669F;
+$shape: #FFFFFF;
+$color-green: #33CC95;
+$color-gray: #D7D7D7;
+$text-ligth: #969CB2;
+$text-dark: #363F5F;
+$color-input: #E7E9EE;
+
+$typography: 'Poppins', sans-sarif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 60% /*controle das medidas rem */;
+}
+
+body {
+  background: $background;
+  font-family: $typography;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: $typography;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-family: $typography;
+  font-weight: 600;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.custom-container .mat-mdc-dialog-container {
+  --mdc-dialog-container-shape: 10px;
+}

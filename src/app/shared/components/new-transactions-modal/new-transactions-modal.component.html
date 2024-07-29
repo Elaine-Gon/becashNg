@@ -1,0 +1,22 @@
+<main>
+  <button class="close" (click)="closeModal()"><img src="/assets/image/close.svg" alt="close"/></button>
+  <div class="modal" mat-dialog-actions>
+    <h1>Cadastrar transação</h1>
+    <form (ngSubmit)="submitForm()">
+      <input placeholder="Nome" formControlName="title"/>
+      <input placeholder="Preco" formControlName="amount"/>
+      <div class="box-buttons">
+        <button class="buttons" formControlName="deposit">
+          <img src="/assets/image/income.svg" alt=""/>
+          Entrada
+        </button>
+        <button  class="buttons" formControlName="withdraw">
+          Saida
+          <img src="/assets/image/outcome.svg" alt=""/>
+        </button>
+      </div>
+      <input placeholder="Categoria" formControlName="category"/>
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+</main>

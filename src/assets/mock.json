@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "lanche",
+    "amount": 23.89,
+    "type": "without",
+    "category": "alimentação",
+    "createdAt":"2014-03-12"
+  },
+  {
+    "id": 2,
+    "title": "lanche",
+    "amount": 23.89,
+    "type": "without",
+    "category": "alimentação",
+    "createdAt":"2014-03-12"
+  },
+
+  {
+    "id": 3,
+    "title": "lanche",
+    "amount": 23.89,
+    "type": "without",
+    "category": "alimentação",
+    "createdAt":"2014-03-12"
+  },
+    {
+    "id": 4,
+    "title": "lanche",
+    "amount": 23.89,
+    "type": "without",
+    "category": "alimentação",
+    "createdAt":"2014-03-12"
+  }
+]
+
+
+
